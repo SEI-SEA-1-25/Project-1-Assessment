@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+#count-display {
+    justify-content: center;
+    padding-top: 50px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid magenta;
+}
+
+#numbers {
+    padding-top: 50px;
+}
