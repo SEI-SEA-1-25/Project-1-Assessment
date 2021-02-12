@@ -1,10 +1,35 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
 input{
     display: flex;
     justify-content: center;
+    border: 2px solid grey;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 125px;
+    height: 60px;
 }
 .container {
     display: flex;  /* defaults to row layout */
     justify-content: center;  /* centers items horizontally in row layout */
     align-items: center;  /* centers vertically in row layout */
     /* flex-direction: column; will set layout to column instead of row */
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+button{
+    color: grey;
+    width: 60px;
+    height: 60px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    color: white;
+    background-color: grey;
+    font-size: 50px;
 }
