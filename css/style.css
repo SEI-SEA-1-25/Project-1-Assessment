@@ -1,0 +1,28 @@
+body{
+    width: 50vw;
+    height: 50vh;
+    border-style: solid;
+    border-color: black;
+    margin-left: 50px;
+    
+}
+
+#result{
+    height: 48%;
+    border-style: solid;
+    border-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 3em;
+}
+
+#container{
+    height: 50%;
+    border-style: solid;
+    border-color:red;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
