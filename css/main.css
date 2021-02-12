@@ -1,6 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 60px;
+}
 .red {
     color: red;
 }
+.hover {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(159, 159, 159);
+    border-style: solid;
+    border-color: rgb(159, 159, 159);;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 10px;
+}
 .hover:hover{
-    background-color: gray;
+    background-color: white;
 } 
+.hover:focus {
+    outline: none;
+}
+#input {
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
