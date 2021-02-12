@@ -1,0 +1,20 @@
+#main-container {
+  text-align: center;
+}
+
+#displayAnswer {
+  height: 30px;
+  width: 100px;
+  border: solid rgb(252, 12, 12) 2px;
+}
+
+button {
+  /* height: 30px;
+  width: 30px;
+  font-size: 20px; */
+}
+#input-area {
+  height: 30px;
+  width: 100px;
+  border: solid black 2px;
+}
