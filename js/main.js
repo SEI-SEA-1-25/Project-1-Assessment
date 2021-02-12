@@ -33,6 +33,7 @@ function create(){
 
     firstDiv = parentDiv.childNodes[0]= firstDiv;
     inp = parentDiv.childNodes[1]= inp;
+    inp.value = 1;
     thirdDiv = parentDiv.childNodes[2]= thirdDiv;
     parentDiv.append(firstDiv);
     parentDiv.append(inp);
@@ -44,7 +45,10 @@ function create(){
     // listen to the DOM
 
     firstDiv.addEventListener("click", ()=>{
-        
+        // = parseInt(aboveDiv.textContent -= count);
+    return subNum;
+
+
     })
 }
 create();
