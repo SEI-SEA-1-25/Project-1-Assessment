@@ -32,5 +32,8 @@ h1 {
     border-radius: 10px;
     text-align: center;
     font-size: 30px;
+    border-color: rgb(159, 159, 159);
+    outline: none;
 }
+
 
