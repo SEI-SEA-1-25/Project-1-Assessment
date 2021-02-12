@@ -1,0 +1,22 @@
+* {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#display {
+    font-size: 2em;
+}
+
+body {
+    margin-top: 40px;
+}
+
+button {
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+.altbutton {
+    background-color: red;
+    border: 1px solid aqua;
+}
