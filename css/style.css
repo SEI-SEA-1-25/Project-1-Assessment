@@ -1,0 +1,39 @@
+*{
+    margin: 20px;
+}
+
+h1{
+    font-size: 128px;
+    text-align:center;
+    padding:40px;
+
+}
+
+section {
+    display: flex;  /* defaults to row layout */
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;  /* centers vertically in row layout */
+    /* flex-direction: column; will set layout to column instead of row */
+    height:120px;
+}
+
+
+
+
+button {
+    color:white;
+    background-color:gray;
+    height:120px;
+    width:120px;
+    font-size: 100px;
+}
+
+input{
+    height:100px;
+    width:300px;
+    font-size:100px;
+    border-width:10px;
+    border-color:gray;
+    background-color: white;
+    text-align:center;
+}
