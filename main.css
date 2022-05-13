@@ -1,0 +1,44 @@
+.grid {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+top: 160px;
+}
+
+.new-number {
+ justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 120px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#input-number {
+ font-size: 60px;
+ width: 100px;
+ height: 100px;
+ border: solid lightgray;
+
+}
+
+#add-button {
+font-size: 60px;
+width: 100px;
+height: 100px;
+background-color: lightgray;
+color: white;
+border: solid white;
+}
+
+#subtract-button {
+font-size: 70px;
+width: 100px;
+height: 100px;
+background-color: lightgray;
+color: white;
+border: solid white;
+}
