@@ -1,0 +1,39 @@
+section {
+    display: flex;  /* defaults to row layout */
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;  /* centers vertically in row layout */
+    /* flex-direction: column; will set layout to column instead of row */
+}
+#input{
+    text-align: center;
+    width: 7rem;
+    height: 4.5rem;
+    border: 5px solid rgb(170, 168, 168);
+    border-radius: 10px;
+    font-size: 35px;
+    margin: 10px;
+    color: black;
+    justify-self: center;
+}
+#output{
+    font-weight: bold;
+    font-size: 50px;
+}
+#plus{
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(170, 168, 168);
+    color: white;
+    font-size: 35px;
+}
+#minus{
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(170, 168, 168);
+    color: white;
+    font-size: 35px;
+}
